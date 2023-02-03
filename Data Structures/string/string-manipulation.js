@@ -8,7 +8,7 @@ for(i=0;i<test.length;i++){
    
 console.log(newarr);
 
-//string
+// string
 // let str="hello"
 // let newstr=""
 
