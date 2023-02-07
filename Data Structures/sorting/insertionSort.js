@@ -10,3 +10,4 @@ function insertionSort (arr) {
     return arr
 }
 console.log(insertionSort([2,1,9,76,4]));
+
