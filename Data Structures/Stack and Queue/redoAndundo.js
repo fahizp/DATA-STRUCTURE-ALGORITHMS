@@ -4,8 +4,9 @@
 
 	function WRITE(Undo, X)
 	{
-		Undo.push(X)
-		console.log(Undo);
+	for (let i = 0; i < X.length; i++) {		
+		Undo.push(X[i])
+	}
 	}
 
 	function UNDO(Undo, Redo)
@@ -24,57 +25,23 @@
 		Undo.push(X);
 	}
 
-	function READ(Undo)
-	{
 
-		let revOrder = [];
+let arr = ['A','B','C','D','E','F','G','H']
 
-		while (Undo.length > 0)
-		{
+	WRITE(Undo,arr)
 
-			revOrder.push(Undo[Undo.length - 1]);
-			Undo.pop();
-		}
+	UNDO(Undo,Redo)
+	UNDO(Undo,Redo)
 
-		while (revOrder.length > 0)
-		{
-			// document.write(revOrder[revOrder.length - 1]);
-			Undo.push(revOrder[revOrder.length - 1]);
-			revOrder.pop();
-		}
-
-		// document.write(" ");
-	}
-
-	function QUERY(Q)
-	{
-
-		N = Q.length
-
-
-		for (let i = 0; i < N; i++)
-		{
-			if(Q[i] == "UNDO")
-			{
-				UNDO(Undo, Redo);
-			}
-			else if(Q[i] == "REDO")
-			{
-				REDO(Undo, Redo);
-			}
-			else if(Q[i] == "READ")
-			{
-				READ(Undo);
-			}
-			else
-			{
-				WRITE(Undo, Q[i][6]);
-			}
-		}
-	}
+	console.log(Undo);
 	
-	let Q = [ "WRITE A", "WRITE B", "WRITE C", "UNDO", "READ", "REDO", "READ" ];
-	QUERY(Q);
+	REDO(Undo,Redo)
+	REDO(Undo,Redo)
+	console.log(Undo);
+
+
+
+	
 
 
 

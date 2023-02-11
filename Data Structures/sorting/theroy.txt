@@ -5,7 +5,7 @@ We have seen two important applications of sorting:
  Sorting is also used in the solution of many other more complex problems.
 
 
-
+  //////HASHTALBE/////
 
  Advantages of Applications of Hashing
 Efficiency: Hashing allows for fast lookups, searches, and retrievals of data, with an average time complexity of O(1) for hash table lookups.
@@ -32,6 +32,11 @@ key and value. The hash table can be implemented with the help of an associative
 The efficiency of mapping depends upon the efficiency of the hash function used for mapping.
 
 
+Following are the collision resolution techniques used:
+Open Hashing (Separate chaining)
+Closed Hashing (Open Addressing) Liner Probing. Quadratic probing. Double hashing.
+
+  ////QUEUE////
 
 Queue is used when things don’t have to be processed immediately,
  but have to be processed in First In First Out order. 
@@ -69,6 +74,9 @@ Applied on WhatsApp when we send messages to our friends and they don’t have a
 Traffic software ( Each  light gets on one by one after every time of interval of time.)
 
 
+  ///STACK////
+
+
  Stack is a simple linear data structure used for storing data. 
  Stack follows the LIFO(Last In First Out)
 
@@ -100,3 +108,36 @@ The total of size of the stack must be defined before.
 If too many objects are created then it can lead to stack overflow.
 Random accessing is not possible in stack.
 If the stack falls outside the memory it can lead to abnormal termination.
+
+
+
+   /// BIG 0 ///
+
+
+
+
+Algorithm	Time Complexity	Space Complexity
+
+ 	                Best	    Average	        Worst	     Worst
+
+Selection Sort	   Ω(n^2)	     θ(n^2) 	    O(n^2)	     O(1)
+
+Bubble Sort	        Ω(n)	     θ(n^2)	        O(n^2)	     O(1)
+
+Insertion Sort	    Ω(n)	     θ(n^2)     	O(n^2)	     O(1)
+
+Quick Sort	        Ω(n log(n))	 θ(n log(n))	O(n^2)	     O(n)
+
+Merge Sort	        Ω(n log(n))	 θ(n log(n))	O(n log(n))  O(n)
+
+
+
+What is the time complexity of push and pop in stack?
+Time Complexity of Stack Operations
+While performing push() and pop() operations on the stack, it takes O(1) time
+
+
+
+What is the time complexity of enqueue () and dequeue () for array based queue?
+Time complexity of the operations are as follows: Enqueue: O(1) time. 
+Dequeue: O(1) time. Display: O(N) time.
