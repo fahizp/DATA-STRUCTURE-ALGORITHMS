@@ -1,0 +1,102 @@
+What are 2 applications of sorting?
+We have seen two important applications of sorting:
+(1) as an aid to searching
+(2) for matching entries in lists.
+ Sorting is also used in the solution of many other more complex problems.
+
+
+
+
+ Advantages of Applications of Hashing
+Efficiency: Hashing allows for fast lookups, searches, and retrievals of data, with an average time complexity of O(1) for hash table lookups.
+Dynamic: Hashing is a dynamic data structure that can be easily resized, making it suitable for growing and changing datasets.
+Secure: Hashing provides a secure method for storing and retrieving sensitive information, such as passwords, as the original data is transformed into a hash value that is difficult to reverse.
+Simple: Hashing is a simple and straightforward concept, making it easy to implement and understand.
+Scalable: Hashing can be scaled to handle large amounts of data, making it suitable for big data applications.
+Uniqueness: Hashing ensures the uniqueness of data, as two different inputs will result in two different hash values, avoiding collisions.
+Verification: Hashing can be used for data verification, such as checking the integrity of files, as even a small change in the input data will result in a different hash value.
+Space-efficient: Hashing is a space-efficient method for storing and retrieving data, as it only stores the hash values, reducing the amount of memory required.
+Error detection: Hashing can be used for error detection, as it can detect errors in data transmission, storage, or processing.
+Speed: Hashing is a fast and efficient method for processing data, making it suitable for real-time and high-performance applications.
+
+
+
+
+
+Hash table is one of the most important data structures that uses 
+a special function known as a hash function that maps a given 
+value with a key to access the elements faster.
+A Hash table is a data structure that stores some information, 
+and the information has basically two main components, i.e., 
+key and value. The hash table can be implemented with the help of an associative array. 
+The efficiency of mapping depends upon the efficiency of the hash function used for mapping.
+
+
+
+Queue is used when things don’t have to be processed immediately,
+ but have to be processed in First In First Out order. 
+
+
+ Some common applications of Queue data structure :
+ 1. Task Scheduling: Queues can be used to schedule tasks based on priority or the order in which they were received.
+
+ 2. Resource Allocation: Queues can be used to manage and allocate resources, such as printers or CPU processing time.
+
+ 3. Batch Processing: Queues can be used to handle batch processing jobs, such as data analysis or image rendering.
+
+ 4. Message Buffering: Queues can be used to buffer messages in communication systems, such as message queues in messaging systems or buffers in computer networks.
+
+ 5. Event Handling: Queues can be used to handle events in event-driven systems, such as GUI applications or simulation systems.
+
+ 6. Traffic Management: Queues can be used to manage traffic flow in transportation systems, such as airport control systems or road networks.
+
+
+
+Semaphores
+FCFS ( first come first serve) scheduling, example: FIFO queue
+Spooling in printers
+Buffer for devices like keyboard
+CPU Scheduling 
+Memory management 
+
+
+Some other applications of Queue:
+Applied as waiting lists for a single shared resource like CPU, Disk, and Printer.
+Applied as buffers on MP3 players and portable CD players.
+Applied on Operating system to handle the interruption.
+Applied to add a song at the end or to play from the front.
+Applied on WhatsApp when we send messages to our friends and they don’t have an internet connection then these messages are queued on the server of WhatsApp.
+Traffic software ( Each  light gets on one by one after every time of interval of time.)
+
+
+ Stack is a simple linear data structure used for storing data. 
+ Stack follows the LIFO(Last In First Out)
+
+
+ Application of Stack in real life:
+
+CD/DVD stand.
+Stack of books in a book shop.
+Undo and Redo mechanism in text editors.
+The history of a web browser is stored in the form of a stack.
+Call logs, E-mails, and Google photos in any gallery are also stored in form of a stack.
+YouTube downloads and Notifications are also shown in LIFO format(the latest appears first ).
+
+Advantages of Stack:
+
+Stack helps in managing data that follows the LIFO technique.
+Stacks are be used for systematic Memory Management.
+It is used in many virtual machines like JVM.
+When a function is called, the local variables and other function parameters are stored in the stack and automatically destroyed once returned from the function. Hence, efficient function management.
+Stacks are more secure and reliable as they do not get corrupted easily.
+Stack allows control over memory allocation and deallocation.
+Stack cleans up the objects automatically.
+
+
+Disadvantages of Stack: 
+
+Stack memory is of limited size.
+The total of size of the stack must be defined before.
+If too many objects are created then it can lead to stack overflow.
+Random accessing is not possible in stack.
+If the stack falls outside the memory it can lead to abnormal termination.
