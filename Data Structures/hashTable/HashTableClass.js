@@ -32,7 +32,7 @@ class HashTable {
         }
         return undefined;
     }
-}
+}         
 
 let ht = new HashTable();
 
@@ -45,4 +45,6 @@ ht.set("sdfji","5");
 
 
 console.log("hihih", ht.get("fahiz"));
+
+
 
