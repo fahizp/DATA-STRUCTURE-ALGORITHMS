@@ -116,7 +116,7 @@ If the stack falls outside the memory it can lead to abnormal termination.
 
 
 
-Algorithm	Time Complexity	Space Complexity
+Algorithm	             Time Complexity	                           Space Complexity
 
  	                Best	    Average	        Worst	     Worst
 
